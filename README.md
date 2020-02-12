@@ -19,13 +19,17 @@ Lean's luci-app-ssr-plus source (history):
    源码来源：https://github.com/coolsnowwolf
    
 ## 使用方法
-```Brach
+    
+ #源码根目录，编辑.gitignore文件
+    vi .gitignore
+    #在文件最后一行，加入
+    git rm --cached package/lean/luci-app-ssr-plus-Jo/ -r
+    #保存后，进入lean源码目录
+    cd package/lean/
     #下载源码
-    
     git clone https://github.com/Leo-Jo-My/luci-app-ssr-plus-Jo package/luci-app-ssr-plus-Jo
-    make menuconfig
-    #编译
-    make package/luci-app-ssr-plus-Jo/{clean,compile} V=s
-    
-
+    #回到源码根目录
+    cd ../..
+    #拉取源码
+    git pull
 
