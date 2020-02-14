@@ -41,7 +41,7 @@ Lean's luci-app-ssr-plus source (history):
     #下载源码
     
 
-    git clone https://github.com/Leo-Jo-My/luci-app-ssr-plus-Jo.git
+    git clone https://github.com/Leo-Jo-My/luci-app-ssr-plus-Jo
     
 
     #回到源码根目录
