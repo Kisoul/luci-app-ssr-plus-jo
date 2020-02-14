@@ -32,10 +32,10 @@ Lean's luci-app-ssr-plus source (history):
     git rm --cached package/lean/luci-app-ssr-plus-Jo/ -r
     
 
-    #保存后，进入lean源码目录
+    #保存后,回到根目录
     
 
-    cd package/lean/
+    cd\
     
 
     #下载源码
